@@ -33,3 +33,4 @@ I think that there are areas where the code can be improved, for example:
 - Move the parser and the logic for getting the next run into dedicated classes in order to improve readability.
 - Unit Test coverage for the core functionality 
 - Improve error handling (eg: when the config file is not present or has a wrong format)
+- Code Documentation

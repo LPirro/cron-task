@@ -8,7 +8,7 @@
 - IDE: IntelliJ
 
 ## How to Run
-The compiled package can be found in the /release directory of this repository along with the configuration file:
+The compiled package can be found in the [/release](https://github.com/LPirro/cron-task/tree/main/release) directory of this repository along with the configuration file:
 - cron-1.0-SNAPSHOT
 - input.txt
 
@@ -32,3 +32,4 @@ The output will be created under the /build/libs folder
 I think that there are areas where the code can be improved, for example: 
 - Move the parser and the logic for getting the next run into dedicated classes in order to improve readability.
 - Unit Test coverage for the core functionality 
+- Improve error handling (eg: when the config file is not present or has a wrong format)
